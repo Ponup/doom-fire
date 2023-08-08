@@ -29,7 +29,7 @@ void stop_igniter(uint8_t *pixels) {
 }
 
 int main(int argc, char **argv) {
-	ge_GIF* anim = ge_new_gif("doom-fire.gif", image_width, image_height, fire_palette, depth, loop_forever);
+	ge_GIF* anim = ge_new_gif("doom-fire.gif", image_width, image_height, fire_palette, depth, -1, loop_forever);
 
 	uint8_t pixels[image_width * image_height];
 	memset(pixels, 0, image_width * image_height);

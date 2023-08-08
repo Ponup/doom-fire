@@ -2,7 +2,7 @@
 PROGRAM=doom-fire
 
 build:
-	gcc -std=c11 -Wall -Wpedantic gifenc.c main.c -o $(PROGRAM)
+	gcc -std=c17 -Wall -Wpedantic gifenc.c main.c -o $(PROGRAM)
 
 run: build 
 	./$(PROGRAM)

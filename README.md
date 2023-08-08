@@ -12,10 +12,14 @@ Inspired by this article: http://fabiensanglard.net/doom_fire_psx/index.html
 
 ## Instructions
 
+Requirements
+* C17 compiler
+* [gifenc](https://github.com/lecram/gifenc)
+
 Compile and run with:
 
 ```sh
-$ make run
+make run
 ```
 
 Open the doom-fire.gif to see the animation.
